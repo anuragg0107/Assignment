@@ -87,4 +87,12 @@
   .contact-button {
     display: none;
   }
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .fa-bars {
+    color: #fff;
+    font-size: 2rem;
+  }
 }

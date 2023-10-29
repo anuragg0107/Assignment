@@ -1,0 +1,12 @@
+.footer-top {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #106690;
+    width: 94%;
+  }
+
+  
+  @media (max-width:768px){
+
+  }

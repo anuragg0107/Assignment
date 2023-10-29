@@ -27,7 +27,7 @@ function Navbar() {
         <button className="contact-button">Contact Us</button>
       </div>
       <button className="menu-toggle" onClick={toggleMenu}>
-        <i aria-hidden='true' className={isActive ? 'fa fa-times' : 'fas fa-bars'}></i>
+        <i  className={isActive ? 'fa fa-times' : 'fas fa-bars'}></i>
       </button>
     </nav>
   );
