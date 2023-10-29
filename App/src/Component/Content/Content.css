@@ -1,0 +1,94 @@
+.content-top {
+  margin-top: 10px;
+  padding: 10px 20px;
+  display: flex;
+}
+.left-side-content {
+  padding-top: 100px;
+}
+.heading {
+  color: #000;
+  font-size: 64px;
+  font-weight: 700;
+}
+.thought {
+  color: #888e95;
+  font-size: 18px;
+  font-weight: 400;
+}
+.join {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empower-img {
+  object-fit: cover;
+}
+.empower-img img {
+  width: 555px;
+  height: 639px;
+}
+.join button {
+  margin-right: 10px;
+}
+.join .learn {
+  color: #1aa7ec;
+  font-size: 18px;
+  font-weight: 400;
+}
+.right-box {
+  padding: 0px;
+  margin: 0px;
+}
+.slider-box {
+  width: 555px;
+  height: 152px;
+
+  background: #e8f6fd;
+}
+.slider-box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.slider-box .idea {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 0px;
+  padding-left: 16px;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .left-side-content {
+    padding-top: 0px;
+  }
+  .content-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heading {
+    font-size: 36px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .right-box {
+    max-width: 100%;
+    height: auto;
+  }
+  .slider-box {
+    max-width: 100%;
+    height: auto;
+  }
+  .empower-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .thought {
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+}
