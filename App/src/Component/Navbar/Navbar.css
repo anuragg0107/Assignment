@@ -60,21 +60,15 @@
   padding: 10px 20px;
   margin-top: -5px;
 }
-.fa-times {
-  color: green;
-  font-size: 2rem;
-}
-.fa-bars {
-  color: green;
-  font-size: 2rem;
-}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
     position: absolute;
-    top: 14px;
-    right: 0;
-    transform: translate(-100%, 60%);
+    top: -6px;
+    right: 1px;
+    /* left: 1px; */
+    transform: translate(-40%, 60%);
     /* font-size: 1.8rem; */
     cursor: pointer;
   }
@@ -100,11 +94,9 @@
     display: none;
   }
   .fa-times {
-    color: green;
-    font-size: 2rem;
+    color: #FFF;
   }
   .fa-bars {
-    color: green;
-    font-size: 2rem;
+    color: #FFF;
   }
 }

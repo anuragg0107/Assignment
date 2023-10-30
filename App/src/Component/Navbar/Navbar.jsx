@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from "../../Images/Logoblue.png"
+import 'font-awesome/css/font-awesome.min.css';
 
 function Navbar() {
 
@@ -27,7 +28,7 @@ function Navbar() {
         <button className="contact-button">Contact Us</button>
       </div>
       <button className="menu-toggle" onClick={toggleMenu}>
-        <i  className={isActive ? 'fa fa-times' : 'fas fa-bars'}></i>
+        <i  className={isActive ? 'fa fa-times' : 'fa fa-bars'}></i>
       </button>
     </nav>
   );

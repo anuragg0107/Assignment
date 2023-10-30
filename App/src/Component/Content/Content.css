@@ -151,6 +151,109 @@ height: 544px;
   font-size: 18px;
   font-weight: 400;
 }
+.get-in-touch{
+  display: flex;
+  padding: 0px 100px 0px 100px  ;
+}
+.left-side-touch h4{
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+}
+.left-side-touch span{
+  color: #5F6368;
+font-size: 18px;
+font-weight: 400;
+padding-right: 14px;
+}
+.left-side-touch .touch-link{
+  display: flex;
+  align-items: center; 
+  margin-bottom: 10px; 
+}
+.left-side-touch .touch-link img {
+  width: 24px;
+height: 24px;
+margin-right: 10px;
+}
+.left-side-touch .touch-link p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+.right-side-touch div{
+  flex-direction: column;
+}
+.right-side-touch h4{
+font-size: 48px;
+font-weight: 700;
+}
+.right-side-touch input {
+  width: 480px;
+height: 54px;
+padding-left: 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+border: 1px solid  #106690;
+}
+.right-side-touch textarea{
+  width: 480px;
+  margin-bottom: 10px;
+  height: 188px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  border: 1px solid  #106690;
+}
+.right-side-touch button{
+  width:504px;
+  height: 48px;
+  border-radius: 10px;
+background: #1AA7EC;
+color: #FFFFFF;
+}
+.stay-connected{
+  display: flex;
+  padding: 0px 50px 0px 50px;
+  margin-bottom: 100px;
+  margin-top: 4rem;
+}
+.stay-connected .left-side-connected{
+  flex-direction: column;
+}
+.stay-connected h4{
+font-size: 48px;
+font-weight: 700;
+}
+.stay-connected p{
+  color: #888E95;
+font-size: 18px;
+font-weight: 400;
+margin-top: 0;
+}
+.stay-connected div{
+  display: flex;
+}
+.stay-connected div input{
+  width: 360px;
+height: 48px;
+border-radius: 100px;
+padding-left: 14px;
+border: 1px solid #1AA7EC;
+}
+.stay-connected .left-side-connected div button{
+  background: #1AA7EC;
+  color: #FFF;
+  border-radius: 100px;
+  width: 165px;
+height: 48px;
+margin-top: 1px;
+margin-left: 10px;
+}
+.stay-connected .right-side-connected img{
+  width: 555px;
+height: 310px;
+}
 @media (max-width: 768px) {
   .union-img {
     max-width: 100%;
@@ -214,5 +317,65 @@ height: 544px;
   .blue-box{
     height: auto;
     padding-bottom: 20px;
+  }
+  .get-in-touch {
+    flex-direction: column; 
+    padding: 0px 10px 0px 10px;
+  }
+
+  .left-side-touch {
+    margin-bottom: 20px; 
+  }
+
+  .left-side-touch h4 {
+    font-size: 36px; 
+  }
+
+  .left-side-touch .touch-link {
+    flex-direction: column;
+  }
+  .left-side-touch .touch-link img {
+    margin-right: 0;
+  }
+  .right-side-touch h4 {
+    font-size: 36px; 
+  }
+  .right-side-touch{
+    margin-right: 20px;
+  }
+  .right-side-touch input,
+  .right-side-touch textarea {
+    width: 100%; 
+    height: 40px;
+  }
+  .right-side-touch button{
+    width: 107%;
+  }
+  .stay-connected {
+    flex-direction: column; 
+    padding: 0 20px; 
+  }
+
+  .stay-connected .left-side-connected h4 {
+    font-size: 30px;
+  }
+  .stay-connected p{
+    font-size: 14px;
+  }
+  .stay-connected div input {
+    max-width: 100%;
+   height: auto;
+  }
+
+  .stay-connected .left-side-connected div button {
+  height: auto;
+    margin-left: 0;
+    margin-top: 1px; 
+    max-width: 100%;
+  }
+
+  .stay-connected .right-side-connected img {
+    max-width: 100%;
+    height: auto;
   }
 }

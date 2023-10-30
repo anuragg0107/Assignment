@@ -6,6 +6,10 @@ import Mentorship from "../../Images/Mentorship.png";
 import Collaboration from "../../Images/Collaboration.png";
 import Network from "../../Images/Networking.png";
 import Union from "../../Images/Union.png";
+import phone from "../../Images/Phone.png";
+import location from "../../Images/Location.png";
+import email from "../../Images/Email.png";
+import Connected from "../../Images/connected.png";
 import "../../App.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
@@ -164,6 +168,50 @@ const Content = () => {
               <button style={{marginRight:"20px",background:"none",border:"1px solid #fff"}}>Join</button>
              <button style={{background:"none",border:"1px solid #fff"}}>Get Envolved</button>
       </div>
+      </div>
+      <div className="stay-connected">
+        <div className="left-side-connected">
+          <h4>Stay Updated with UNYN Newsletter</h4>
+          <p>Gets the latest updates, news and exciting opportunities for UNYN. </p>
+          <div>
+            <input placeholder="Enter your email" type="email" />
+            <button>Sign Up</button>
+          </div>
+          <p>By signing up, you agree to our Term and Conditions.</p>
+        </div>
+        <div className="right-side-connected">
+          <img src={Connected} alt="connected" />
+        </div>
+      </div>
+      <div className="get-in-touch">
+        <div className="left-side-touch">
+          <h4>Get in touch</h4>
+          <span><span style={{color:"#0B4765"}}>Contact with our team</span>  to talk about 
+          how we can help your business process at scale, or sign up for more info </span>
+          <div className="touch-link">
+            <img  src={location} alt="location" />
+            <p>1-4929, Lane No. 6, Balbirnagar Ext., Shahdara, Delhi 110032</p>
+          </div>
+          <div className="touch-link">
+            <img  src={phone} alt="phone" />
+            <p>+91-8888888888</p>
+          </div>
+          <div className="touch-link">
+            <img  src={email} alt="email" />
+            <p>info@unyn.com</p>
+          </div>
+        </div>
+        <div className="right-side-touch">
+          <h4>Say something</h4>
+          <div>
+            <input placeholder="Your name" type="text" /> <br />
+
+            <input placeholder="Your email" type="email" />
+            <br />
+            <textarea placeholder="Message"></textarea> <br />
+            <button>Send</button>
+          </div>
+        </div>
       </div>
     </div>
   );
