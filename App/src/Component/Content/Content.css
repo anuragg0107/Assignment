@@ -353,7 +353,7 @@ height: 310px;
   }
   .stay-connected {
     flex-direction: column; 
-    padding: 0 20px; 
+    padding: 0 5px; 
   }
 
   .stay-connected .left-side-connected h4 {
