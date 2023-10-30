@@ -1,12 +1,123 @@
+li {
+  list-style: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+b {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
 .footer-top {
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 10px 20px;
-    background-color: #106690;
-    width: 94%;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #106690;
+  width: 94%;
+  display: flex;
+}
+.white-logo {
+  object-fit: cover;
+  padding-top: 80px;
+}
+.white-logo img {
+  width: 108.632px;
+  height: 32px;
+}
+.left-side-footer p {
+  color: #e8f6fd;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe {
+  display: flex;
+}
+.subscribe input {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #106690;
+  width: 263px;
+  height: 48px;
+  padding-left: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.subscribe button {
+  margin-right: 10px;
+  border-radius: 50px;
+  color: #106690;
+  font-size: 18px;
+  background-color: #fff;
+}
+.links-container {
+  padding-left: 20px;
+  float: left;
+}
+.right-side-footer {
+  padding-top: 80px;
+  display: flex;
+  align-items: flex-start;
+}
+.links {
+  margin-right: 20px;
+}
+.follow {
+  padding: 0;
+  justify-content: space-around;
+}
+.follow-links {
+  display: flex;
+}
+.follow li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.follow-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.follow-links p {
+  margin: 5px 8px;
+}
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+  }
+  .subscribe {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-side-footer p {
+    font-size: 12px;
+  }
+  .subscribe input {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
-  
-  @media (max-width:768px){
-
+  .subscribe button {
+    margin-right: 0;
   }
+
+  .right-side-footer {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .links {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

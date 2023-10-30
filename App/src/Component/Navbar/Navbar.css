@@ -60,10 +60,22 @@
   padding: 10px 20px;
   margin-top: -5px;
 }
-
+.fa-times {
+  color: green;
+  font-size: 2rem;
+}
+.fa-bars {
+  color: green;
+  font-size: 2rem;
+}
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
+    position: absolute;
+    top: 14px;
+    right: 0;
+    transform: translate(-100%, 60%);
+    /* font-size: 1.8rem; */
     cursor: pointer;
   }
   .nav-links {
@@ -88,11 +100,11 @@
     display: none;
   }
   .fa-times {
-    color: #fff;
+    color: green;
     font-size: 2rem;
   }
   .fa-bars {
-    color: #fff;
+    color: green;
     font-size: 2rem;
   }
 }
